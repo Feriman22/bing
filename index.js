@@ -40,8 +40,8 @@ async function newTab() {
       );
 
       if (i < 36) {
-        // Wait between 20 and 30 mins randomly before the next opening
-        await sleep(1200000, 1800000);
+        // Wait between 15 and 60 mins randomly before the next opening
+        await sleep(900000, 3600000);
       }
 
       if (openedWindow) {
